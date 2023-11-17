@@ -23,9 +23,10 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
 
 tocaSom (idAudio);
 
-}
-   tecla.onkeydown = function () {
-
+} const tecla: Element 
+ 
+   tecla.onkeydown = function (evento) {
+console.log (evento.code)
     if ('Space') {
         tecla.classList.add ('ativa');
     }
