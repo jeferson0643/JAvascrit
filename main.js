@@ -26,7 +26,7 @@ tocaSom (idAudio);
 } const tecla: Element 
  
    tecla.onkeydown = function (evento) {
-console.log (evento.code)
+console.log (evento)
     if ('Space') {
         tecla.classList.add ('ativa');
     }
